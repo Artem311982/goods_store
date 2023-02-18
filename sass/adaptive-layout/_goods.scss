@@ -6,9 +6,19 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.slider-boots {
-}
+// .slider-boots {
+//   width: 100px;
+//   height: 100px;
+// }
 
 .slider-boots__first-photo {
-  background-image: url(../../img/children);
+  background-color: red;
+}
+
+.slider-boots__second-photo {
+  background-color: gray;
+}
+
+.slider-boots__third-photo {
+  background-color: yellow;
 }
