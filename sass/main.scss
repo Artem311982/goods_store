@@ -1,11 +1,15 @@
+// adaptive-laout
+@import './adaptive-layout/goods';
+@import './adaptive-layout/images';
+@import './adaptive-layout/header';
+
 // base
 @import './base/base';
 @import './base/contaner';
 @import './base/reset';
 
-// adaptive-laout
-@import './adaptive-layout/goods';
-@import './adaptive-layout/images';
+// components
+@import './components/btn';
 
 // utils
 @import './utils/vars';
