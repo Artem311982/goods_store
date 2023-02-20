@@ -6,16 +6,7 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.img-test {
-  width: 120px;
-  height: 120px;
-  border: 2px solid red;
-  background-color: orange;
-  background-image: url(../../img/children_shoes/first_black_shoes/2-min.png);
-}
-
 .header {
-  position: relative;
   background-color: bisque;
 }
 
@@ -30,6 +21,14 @@
   margin: 0;
   border: 0;
   background-color: transparent;
+}
+
+.header__mobile-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 500px;
 }
 
 html {

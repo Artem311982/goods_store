@@ -24,14 +24,20 @@
     <header>
       <div class="header contaner">
         <h1>Online stock</h1>
-        <button class="header__button-menu" type="button" data-menu-button>
+        <button
+          class="header__button-menu"
+          type="button"
+          aria-expanded="false"
+          aria-controls="header__mobile-menu"
+          data-menu-button
+        >
           <svg width="40px" height="40px" aria-label="Перемикач мобільного меню">
             <use class="header__icon-menu" href="./img/icons/icons.svg#menu_path"></use>
             <use class="header__icon-dagger" href="./img/icons/icons.svg#dagger"></use>
           </svg>
         </button>
-        <nav>
-          <ul>
+        <nav class="header__mobile-menu" id="header__mobile-menu">
+          <ul class="list">
             <li>Чоловічий одяг</li>
             <li>Жіночий одяг</li>
             <li>Дитячий одяг</li>
@@ -73,9 +79,6 @@
         <p>Вартість</p>
         <a href=""></a>
       </section>
-
-      <div class="img-test"></div>
-      <p class="img-test"></p>
     </main>
 
     <footer></footer>
