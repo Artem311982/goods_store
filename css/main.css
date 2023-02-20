@@ -6,16 +6,12 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.slider-boots__first-photo {
-  background-color: red;
-}
-
-.slider-boots__second-photo {
-  background-color: gray;
-}
-
-.slider-boots__third-photo {
-  background-color: yellow;
+.img-test {
+  width: 120px;
+  height: 120px;
+  border: 2px solid red;
+  background-color: orange;
+  background-image: url(../../img/children_shoes/first_black_shoes/2-min.png);
 }
 
 .header {
@@ -69,14 +65,28 @@ html {
   padding-bottom: 94px;
 }
 
-@media screen and (min-width: 1200px) {
-  .contaner {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
+.contaner {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media screen and (min-width: 480px) {
+  .contaner .contaner {
+    width: 480px;
   }
 }
+@media screen and (min-width: 768px) {
+  .contaner {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contaner {
+    width: 1200px;
+  }
+}
+
 h1,
 h2,
 h3,
