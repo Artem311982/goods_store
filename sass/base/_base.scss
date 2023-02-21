@@ -1,9 +1,18 @@
 html {
   box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  height: 100%;
 }
 
 .page {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+
   font-family: var(--main-font);
   font-size: 14px;
   color: var(--main-txt-cl);
@@ -21,6 +30,10 @@ html {
   @media screen and (min-width: 1200px) {
     width: 1200px;
   }
+}
+
+main {
+  flex: 1 1 auto;
 }
 
 .section {
