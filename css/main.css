@@ -10,6 +10,12 @@
           box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+.goods__txt-box {
+  padding-bottom: 10px;
+}
+.goods__items {
+  margin-bottom: 5px;
+}
 
 .slider-boots {
   border: 1px solid black;

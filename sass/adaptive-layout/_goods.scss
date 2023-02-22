@@ -9,6 +9,17 @@
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+
+  &__txt-box {
+    padding-bottom: 10px;
+  }
+
+  &__list {
+  }
+
+  &__items {
+    margin-bottom: 5px;
+  }
 }
 
 .slider-boots {
