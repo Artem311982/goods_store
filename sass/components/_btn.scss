@@ -1,8 +1,13 @@
+.header__button-menu {
+  fill: var(--other-color-wight);
+}
+
 .header__icon-dagger {
   display: none;
 }
 
 .header__button-menu.is-open .header__icon-dagger {
+  fill: var(--other-color-wight);
   display: block;
 }
 

@@ -1,17 +1,14 @@
 .goods {
-  width: 200px;
-  height: 200px;
+  margin-bottom: 20px;
+  width: 70%;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-
-  border: 1px solid black;
 }
 
-// .slider-boots {
-//   width: 100px;
-//   height: 100px;
-// }
+.slider-boots {
+  border: 1px solid black;
+}
 
 // .slider-boots__first-photo {
 //   background-color: white;

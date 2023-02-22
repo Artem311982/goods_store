@@ -1,8 +1,29 @@
 .footer {
-  margin-top: auto;
+  position: fixed;
 
-  padding-top: 60px;
-  padding-bottom: 60px;
+  width: 100%;
+
+  bottom: 0;
+
+  padding-top: 40px;
+  padding-bottom: 40px;
   background-color: var(--other-bg-cl);
   color: var(--other-color-wight);
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+  }
+
+  &__link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
